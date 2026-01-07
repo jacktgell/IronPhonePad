@@ -80,7 +80,7 @@ The solution was benchmarked using **BenchmarkDotNet**.
 3.  **Early Termination:** The stress test confirms that the algorithm efficiently halts processing immediately upon encountering the send key (`#`), regardless of remaining input size.
 
 ### Graph Analysis:
-The scatter plot above visually confirms the **Linear Time Complexity (O(N))** of the solution.
+The scatter plot below visually confirms the **Linear Time Complexity (O(N))** of the solution.
 
 As the **Sample Length** increases (vertical axis), the execution **Time** (horizontal axis) grows in direct proportion. The grouping of data points along the diagonal indicates a stable, predictable algorithm with minimal variance. There is no exponential curve, proving that the solution scales efficiently even as input sizes reach 10,000+ characters.
 
